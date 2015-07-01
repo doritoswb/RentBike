@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboard0marker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--ImageView
+        android:id="@+id/dashboard0MarkerContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/normalbks"
+        android:visibility="gone"/-->
+
+    <LinearLayout
+        android:id="@+id/dashboard0MarkerFocusContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/marker_icon_bubble_focused"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dashboard0MarkerSiteNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff000000"
+            android:textSize="12sp"
+            android:ellipsize="end"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/dashboard0MarkerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff000000"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/dashboard0MarkerAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/dashboard0MarkerTotalBikeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff000000"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/dashboard0MarkerLeftBikeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff000000"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/dashboard0MarkerDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff000000"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+</FrameLayout>

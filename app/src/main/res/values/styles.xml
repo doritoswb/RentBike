@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="backgroundSearchBox">
+        <item name="android:background">#ff005830</item>
+    </style>
+
+    <style name="backgroundGreen">
+        <item name="android:background">#ff005830</item>
+    </style>
+</resources>

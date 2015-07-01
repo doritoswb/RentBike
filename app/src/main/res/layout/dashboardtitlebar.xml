@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="0dp"
+    android:orientation="horizontal"
+    style="@style/backgroundGreen">
+
+    <ImageView
+        android:id="@+id/dashboardProfileButton"
+        android:layout_width="48dp"
+        android:layout_height="31dp"
+        android:clickable="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClick"
+        android:src="@drawable/profile_unfocused" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_toRightOf="@+id/dashboardProfileButton"
+        android:layout_toLeftOf="@+id/refresh"
+        android:layout_marginRight="0dp"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"/>
+        />
+
+    <ImageView
+        android:id="@+id/refresh"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:src="@drawable/refresh"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

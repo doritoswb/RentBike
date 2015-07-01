@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "19.1.0"
+
+    sourceSets {
+        main {
+            resources.srcDirs = ["$property_soDir"]
+        }
+    }
+
+    defaultConfig {
+        applicationId "application.brent.com.rentbike"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        releaseKeyConfig {
+            storeFile file("rentbike")
+            storePassword "rentbike"
+            keyAlias "rentbikealias"
+            keyPassword "rentbike"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        signed.initWith(buildTypes.release)
+        signed {
+            signingConfig signingConfigs.releaseKeyConfig
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.+'
+    compile 'cn.pedant.sweetalert:library:1.3'
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 版本信息 -->
+    <application.brent.com.rentbike.CustomizedPreferenceCategory
+        android:key="@string/profile_key_version_category"
+        android:title="@string/profile_version_category">
+
+        <application.brent.com.rentbike.CustomizedPreference
+            android:key="@string/profile_key_version"
+            android:title="@string/profile_version"
+            android:layout="@layout/profilecumtomizedpreference"/>
+
+    </application.brent.com.rentbike.CustomizedPreferenceCategory>
+
+    <!-- 其他查询 -->
+    <application.brent.com.rentbike.CustomizedPreferenceCategory
+        android:key="@string/profile_key_query_category"
+        android:title="@string/profile_query_category">
+
+        <application.brent.com.rentbike.CustomizedPreference
+            android:key="@string/profile_key_rent_history"
+            android:title="@string/profile_rent_history"
+            android:layout="@layout/profilecumtomizedpreference"/>
+
+    </application.brent.com.rentbike.CustomizedPreferenceCategory>
+
+    <!-- 使用指南 -->
+    <application.brent.com.rentbike.CustomizedPreferenceCategory
+        android:key="@string/profile_key_use_category"
+        android:title="@string/profile_use_category">
+
+        <application.brent.com.rentbike.CustomizedPreference
+            android:key="@string/profile_key_get_card"
+            android:title="@string/profile_get_card"
+            android:layout="@layout/profilecumtomizedpreference"/>
+        <application.brent.com.rentbike.CustomizedPreference
+            android:key="@string/profile_key_service_time"
+            android:title="@string/profile_service_time"
+            android:layout="@layout/profilecumtomizedpreference"/>
+        <application.brent.com.rentbike.CustomizedPreference
+            android:key="@string/profile_key_charge_standard"
+            android:title="@string/profile_charge_standard"
+            android:layout="@layout/profilecumtomizedpreference"/>
+        <application.brent.com.rentbike.CustomizedPreference
+            android:key="@string/profile_key_frequent_questions"
+            android:title="@string/profile_frequent_questions"
+            android:layout="@layout/profilecumtomizedpreference"/>
+
+    </application.brent.com.rentbike.CustomizedPreferenceCategory>
+
+</PreferenceScreen>

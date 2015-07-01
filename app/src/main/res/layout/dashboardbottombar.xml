@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    style="@style/backgroundGreen">
+
+    <Button
+        android:id="@+id/search_site"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="@string/search_site"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:background="@drawable/bottom_button"
+        />
+
+    <Button
+        android:id="@+id/near_me"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/nearby"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:background="@drawable/bottom_button"
+        />
+
+</LinearLayout>

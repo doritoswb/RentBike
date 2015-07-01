@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">西安公共自行车掌上指南</string>
+    <string name="app_version">V1.0</string>
+    <string name="enter_app">开始使用</string>
+    <string name="search_Hint">请输入要搜索的地址（比如“南大街”）</string>
+    <string name="app_about">关于</string>
+    <string name="input_search_text_prompt">请输入查询地址</string>
+
+    <string name="profile_key_version_category">key_version_category</string>
+    <string name="profile_version_category">版本信息</string>
+    <string name="profile_key_version">key_version</string>
+    <string name="profile_version">西安公共自行车 v1.0</string>
+
+    <string name="profile_key_query_category">key_query_category</string>
+    <string name="profile_query_category">其他查询</string>
+    <string name="profile_key_rent_history">key_rent_history</string>
+    <string name="profile_rent_history">租车记录</string>
+
+    <string name="profile_key_use_category">key_use_category</string>
+    <string name="profile_use_category">使用指南</string>
+    <string name="profile_key_get_card">key_get_card</string>
+    <string name="profile_get_card">办卡须知</string>
+    <string name="profile_key_service_time">key_service_time</string>
+    <string name="profile_service_time">服务时间</string>
+    <string name="profile_key_charge_standard">key_charge_standard</string>
+    <string name="profile_charge_standard">收费标准</string>
+    <string name="profile_key_frequent_questions">key_frequent_questions</string>
+    <string name="profile_frequent_questions">常见问题</string>
+
+    <string name="profile_author">作者信息</string>
+    <string name="profile_key_author">key_author</string>
+    <string name="title">西安公共自行车</string>
+    <string name="search_site">查看网点</string>
+    <string name="nearby">离我最近</string>
+    <string name="site_num">网点编号：</string>
+    <string name="site_name">网点名称：</string>
+    <string name="site_address">网点地址：</string>
+    <string name="site_total_bike_num">自行车数：</string>
+    <string name="site_left_bike_num">剩余车数：</string>
+
+    <string name="offline_mode_text">亲，没有网络哦</string>
+    <string name="progress_bar_title">正在拼命为您加载中……</string>
+
+    <string name="profile_product_info">                     产品介绍\n\n
+    1. 本产品支持在线实时查询西安市任何地区的公共自行车站点信息，包括"网点编号"，"网点名称"，"网点地址"，"网点自行车总数"，"网点目前剩余自行车数"，以及"网点距离"等信息。\n\n\n
+
+                                                              鸣谢\n\n
+    感谢CCTV, MTV, DVD, 我老婆以及将要出生的娃(老爸爱你哦)，尤其感谢iOS版“西安公共自行车掌上指南”的作者Kai Li大神的友情指点，泰迪，你这次满意了吧。:)\n\n
+
+    欢迎大家提出您宝贵的意见，您的建议或意见会促使我继续完善本产品，为您出行带来更大的便利，谢谢大家！\n</string>
+    <string name="profile_get_card_content">为方便西安市民出行，按以“实名办卡，通租通还，限时免费、超时计费、智能管理、一卡通行、绿色环保、方便出行”的原则，现将公共自行车办卡须知公布如下：\n\n
+
+一、 开通\n\n
+       1、用户需携带本人有效证件（身份证、军官证、护照、港澳通行证）缴纳300元诚信保证金办理开通自行车使用业务。\n
+       2、一张有效证件只能开通一张长安通卡自行车功能，每张卡每次只能租借一辆自行车。\n
+       3、办理流程：\n
+       阅读西安城市公共自行车使用服务须知；\n
+       填写西安城市自行车使用服务协议；\n
+       填写自行车业务申请单；\n
+       将个人有效证件、长安通卡、服务协议、业务申请单、300元诚信保证金一同交由网点工作人员；\n
+       开通后的长安通卡、诚信保证金收据、服务协议客户妥善保管；\n\n
+
+二、挂失和解除\n\n
+      1、长安通卡丢失后，第一时间致电公共自行车客服进行挂失。\n
+      2、用户需携带本人有效证件前往公共自行车客服中心办理解挂手续，解除挂失24小时内生效。\n\n
+
+三、注销\n\n
+      1、有卡注销：\n
+      客户先到就近自行车管理立柱查询并恢复卡到正常状态再携带本人办卡时有效证件、服务协议、长安通卡、诚信保证金收据前往网点办理注销，卡片注销后工作人员收回服务协议、诚信保证金收据。\n
+      2、无卡注销：\n
+      必须在挂失五个工作日后方可到各网点进行办理。\n</string>
+
+    <string name="profile_service_time_content">服务时间 6:30—21:00\n\n
+
+21:00之后只接受还车，不予借车。</string>
+    <string name="profile_charge_standard_content">公共自行车租赁实行累加计费\n\n
+
+1小时内免费，1小时以上至2小时（含）收费1\n元，2小时以上至3小时（含）收费2元，3小\n时以上收费3元/小时（不足一小时按一小时计）\n，24小时最高收费30元。\n\n 例：\n使用者用车5小时，则系统收取费用 0+1+2+3+3=9元。\n\n
+
+连续租赁时间超过24小时的按天实行倍增累加计费，即24小时（含）内收费30元，24小时至48小时（含）收费30×2+30=90元，48小时至72小时（含）收费60×2+90=210元，以此类推。</string>
+    <string name="profile_frequent_questions_content">1.还车后刷卡，语音提示“请重刷”\n
+
+ 近期用户反映：还车后刷卡不成功，语音提示“请重刷”。排除办法：可将长安通卡抬高距离面板1厘米的距离刷卡即可，再不成功，可直接将卡放在信息立柱（带数字键盘及显示屏的立柱）刷卡区，卡片状态显示正常即可。欢迎拨打965318客服电话。\n\n
+
+    2.刷卡后车在10秒内为取出，再次刷卡提示未还车怎么办？\n
+
+ 取车刷卡时，10秒内未及时将车取出，车辆会自动锁住，再次刷卡时提示未还车，此时请确认车头屏幕显示“请刷卡租车”并且无报警声，1小时后在信息立柱上恢复卡片状态即可。\n\n
+
+    3.取车时出现报警声怎么办？\n
+
+ 出现报警声时，请及时抬起车座，左右摇晃车头，重复操作即可取出，若还是未能正常取出，请第一时间致电客服。\n\n
+
+    4.还车时刷卡提示余额不足怎么办？\n
+
+ 还车刷卡时提示余额不足，可在就近的充值网点对长安通进行充值，再次租车前，可在信息立柱上恢复卡片状态即可。\n\n
+
+    5.还车锁止器报警或屏幕显示“请检查锁”怎么办？\n
+
+ 首先将软锁放到车把后方，抬起车后座，左右摇晃，确认车子锁好且无报警声，屏幕显示请刷卡租车即可离开。\n\n
+
+    6.网点满、断电无法还车怎么办？\n
+
+ 网点满、断电时请将车交由现场的工作人员处理，若无工作人员，请致电客服965318，并按客服人员的电话操作，避免造成额外的扣费。\n\n
+
+    7.刷卡取车提示未还车，无法继续租车怎么办？\n
+
+ 取车刷卡时提示“未还车”，若车辆已归还，可以在信息立柱（带数字键盘和显示屏的立柱）上恢复卡片状态，若车辆未归还，请先归还车辆后，再在立柱上恢复卡片状态。\n</string>
+</resources>
